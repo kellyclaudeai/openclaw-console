@@ -21,6 +21,7 @@ export default function SignUpPage() {
             <input
               id="name"
               type="text"
+              autoComplete="name"
               placeholder="Jane Doe"
               className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:ring-2 focus-visible:outline-none"
             />
@@ -32,6 +33,7 @@ export default function SignUpPage() {
             <input
               id="email"
               type="email"
+              autoComplete="email"
               placeholder="you@example.com"
               className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:ring-2 focus-visible:outline-none"
             />
@@ -43,6 +45,7 @@ export default function SignUpPage() {
             <input
               id="password"
               type="password"
+              autoComplete="new-password"
               className="border-input bg-background ring-offset-background placeholder:text-muted-foreground focus-visible:ring-ring flex h-10 w-full rounded-md border px-3 py-2 text-sm focus-visible:ring-2 focus-visible:outline-none"
             />
           </div>
